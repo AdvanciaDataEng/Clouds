@@ -167,7 +167,7 @@ L'hub organizza i dati in movimento in categorie chiare:
 3. **Eventi di Fabric (Fabric Events):** Eventi di sistema generati _all'interno_ di Fabric, come cambiamenti nello stato dei processi, azioni su file/cartelle in **OneLake** o modifiche agli elementi del workspace.
 4. **Eventi di Azure (Azure Events):** Eventi di sistema generati dai servizi Azure, come le azioni su file nell'Archiviazione BLOB di Azure.
 
-> 🛠️ **Flusso Operativo nell'Hub**
+> **Flusso Operativo nell'Hub**
 > 
 > 1. **Individuazione:** Individui un flusso di eventi esistente nell'Hub.
 > 2. **Esplorazione:** Selezioni il flusso e navighi al **KQL Database** sottostante per eseguire query approfondite.
