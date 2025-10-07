@@ -1,3 +1,6 @@
+---
+autore: Kevin Milli
+---
 
 ## Introduzione e Concetti Fondamentali del Data Warehouse
 
