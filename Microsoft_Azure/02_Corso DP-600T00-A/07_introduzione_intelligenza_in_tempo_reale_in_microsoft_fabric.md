@@ -10,7 +10,7 @@ L'**Analisi in Tempo Reale** (Real-Time Analytics - RTA) è la disciplina che si
 
 Contrariamente all'**Elaborazione Batch** (tradizionale), che analizza _snapshot statici_ di dati storici archiviati (spesso durante la notte), l'analisi in tempo reale opera sui **dati in movimento** (_data in motion_).
 
-> 💡 **Intuizione: "Quasi in Tempo Reale"**
+> **Intuizione: "Quasi in Tempo Reale"**
 > 
 > In pratica, l'RTA è quasi sempre definita **Near Real-Time** (NRT) o **Quasi in Tempo Reale**. Questo perché un certo grado di latenza (dovuta all'acquisizione, alla rete e all'elaborazione) è inevitabile. L'obiettivo non è latenza zero, ma una **latenza sufficientemente bassa** (spesso inferiore al secondo) da consentire una risposta **azionabile** e **tempestiva** all'evento che si è verificato.
 
@@ -79,7 +79,7 @@ RTI si basa sul concetto di **Eventhouse**, che è un contenitore logico all'int
 
 Il KQL è il linguaggio di query primario utilizzato nel KQL Database.
 
-> 🛠️ **Insight su KQL**
+> **Insight su KQL**
 > 
 > KQL è progettato specificamente per interrogare grandi volumi di dati di log e telemetria. La sua sintassi è estremamente potente e intuitiva, utilizzando l'operatore pipeline (`|`) per concatenare operazioni (filtri, aggregazioni, join, ecc.), rendendolo ideale per l'analisi di serie temporali (time series) e per il rilevamento di pattern nel flusso.
 
@@ -114,7 +114,7 @@ A differenza dei sistemi batch che elaborano i dati a intervalli pianificati, Re
 
 Microsoft Fabric Real-Time Intelligence è un set integrato di componenti che interagiscono per gestire lo streaming dei dati dall'acquisizione tramite risposta automatica.
 
-### A. Inserimento ed Elaborazione: Eventstream 🌊
+### A. Inserimento ed Elaborazione: Eventstream
 
 **Eventstream** è il motore di acquisizione e trasformazione _leggera_ dei dati in movimento.
 
@@ -123,7 +123,7 @@ Microsoft Fabric Real-Time Intelligence è un set integrato di componenti che in
     - **No-Code Processing:** Permette di **filtrare** (rimuovere eventi irrilevanti), **arricchire** (aggiungere campi, ad esempio un timestamp di sistema), e **trasformare** (modificare il nome dei campi) i dati prima dell'archiviazione.
     - **Routing:** Instrada lo stesso flusso a destinazioni diverse, ad esempio, inviare i dati di log completi a un database KQL e solo gli avvisi critici a un **Activator**.
 
-### B. Archiviazione e Analisi: Eventhouse e KQL Database 💾
+### B. Archiviazione e Analisi: Eventhouse e KQL Database
 
 Real-Time Intelligence archivia i dati nei database KQL (Kusto Query Language) all'interno degli **Eventhouses**.
 
@@ -132,7 +132,7 @@ Real-Time Intelligence archivia i dati nei database KQL (Kusto Query Language) a
     - **Integrazione OneLake:** L'archiviazione sottostante sfrutta **OneLake**, il _Data Lake_ di Fabric, rendendo i dati di streaming immediatamente disponibili per altri carichi di lavoro (come Data Science o Power BI) senza movimentazione.
     - **Linguaggio KQL:** L'analisi primaria avviene tramite il **Kusto Query Language**, che eccelle nelle query di log, serie temporali e rilevamento di pattern temporali.
 
-### C. Querying e Visualizzazione: KQL Queryset e Real-Time Dashboard 📊
+### C. Querying e Visualizzazione: KQL Queryset e Real-Time Dashboard
 
 - **KQL Queryset:** Offre un ambiente interattivo per **eseguire e gestire le query KQL** sui KQL Database.
     - **Flessibilità:** Consente di salvare query per uso futuro, organizzare schede di query e supporta la sintassi **T-SQL** per gli utenti che preferiscono lo standard SQL.
