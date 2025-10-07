@@ -113,10 +113,6 @@ Si verifica quando le tabelle delle dimensioni sono **normalizzate** (suddivise)
 
 ---
 
-Ottimo! Continuo con l'analisi e l'espansione della seconda parte dei tuoi appunti.
-
----
-
 ## Architettura e Funzionalità del Data Warehouse in Fabric
 
 Il Data Warehouse di Fabric è un componente chiave dell'architettura **Lakehouse** di Microsoft Fabric, progettato per combinare la potenza transazionale di un database SQL con la flessibilità e la scalabilità di un Data Lake.
