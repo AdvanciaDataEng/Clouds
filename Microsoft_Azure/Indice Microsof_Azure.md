@@ -12,10 +12,7 @@
 - [[09_servizi_di_calcolo_e_rete_di_azure.md]]
 - [[10_servizi_di_archiviazione_azure.md]]
 - [[12_identità_accesso_e_sicurezza_di_azure.md]]
-### Pratica
 
-- [[01_esercitazioni.md]]
-- [[02_esercitazioni.md]]
 ## 01_Corso DP-600T00-A
 
 - [[01_introduzione_a_microsoft_fabric.md]]
@@ -30,10 +27,7 @@
 - [[10_amministrare_un_ambiente_microsoft_fabric.md]]
 - [[11_proteggere_un_data_warehouse_di_microsoft_fabric.md]]
 - [[12_governance_dei_dati_in_microsoft_fabric_con_purview.md]]
-### Esercizi
 
-- [[01_esercizi.md]]
-- [[prmpt.md]]
 ## 02_Corso DP-600T00-A
 
 - [[01_introduzione_ai_lakehouse_in_microsoft_fabric.md]]
